@@ -274,17 +274,18 @@ nav div:nth-child(2){
 .academicsControls select{
 	display: inline-block;
   padding: 3px 15px;
-  border: solid 3px #ccc;
+  border: solid 3px white;
   /*box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 1);*/
   border-radius: 4%;
   /*height: 32px;*/
   /*-webkit-appearance:none;*/
   /*width: 213px;*/
-  color: grey;
+  color: #333;
+	font-weight: 400;
   -webkit-transition: .2s;
   transition: .2s;
   /*-webkit-appearance:none;*/
-  background-color: white;
+  background-color: lightgrey;
 	outline: none;
 	margin-right: 20px;
 }
@@ -307,7 +308,7 @@ input::-webkit-search-cancel-button {
 }
 
 input[type=search] {
-  border: solid 3px #ccc;
+  border: solid 3px white;
   padding: 5px 12px 5px 20px;
   width: 200px;
   border-radius: 10em;
@@ -335,11 +336,11 @@ select:hover {
 }
 
 input:-moz-placeholder {
-  color: #999;
+  color: grey;
 }
 
 input::-webkit-input-placeholder {
-  color: #999;
+  color: grey;
 }
 
 /*.academicsControls select option{
