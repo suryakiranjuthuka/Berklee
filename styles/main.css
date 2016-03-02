@@ -177,7 +177,8 @@ nav div:nth-child(2){
 }
 
 .contentContainer{
-	width: 100%;
+	/*width: 100%;*/
+	max-width: 1800px;
 	box-sizing: border-box;
 	padding: 0px 80px;
 	/*font-size: 0px;*/
